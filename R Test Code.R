@@ -1,4 +1,4 @@
-get_yesterday <- function() {
-  return(Sys.Date() -1)
+get_today <- function() {
+  return(Sys.Date())
 }
-get_yesterday()
+get_today()
